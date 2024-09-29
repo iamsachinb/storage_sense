@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+    background-color: #b3e5fc; /* Light blue for the navbar */
+    padding: 10px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    margin: 0; /* Ensure no margin */
+}
+
+.navbar-links li a {
+    color: #0277bd; /* Strong light blue for the links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-links li a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}

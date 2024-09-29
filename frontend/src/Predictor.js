@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import './Predictor.css'
 
 const Predictor = () => {
   const [airTemp, setAirTemp] = useState("");
@@ -31,7 +32,6 @@ const Predictor = () => {
 
   return (
     <div>
-      <h1>Machine Maintenance Predictor</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="number"

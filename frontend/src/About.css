@@ -1,0 +1,21 @@
+/* About.css */
+.about-container {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #0277bd; /* Stronger blue text color */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}

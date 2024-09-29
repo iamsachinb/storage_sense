@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+    padding: 20px;
+    max-width: 800px; /* Limit width for the main content */
+    margin: 0 auto; /* Center align the main content */
+    background-color: #ffffff; /* White background for the app */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-heading {
+    color: #0277bd; /* Dark blue */
+    font-weight: bold;
+    text-align: left;
+    margin: 0; /* No margin */
+    padding: 20px 0; /* Space around heading */
+    width: 100%; /* Full width */
+    background-color: #b3e5fc; /* Light blue background */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+    background-color: #b3e5fc; /* Light blue */
+    display: flex;
+    justify-content: center; /* Center navbar items */
+    padding: 10px 0;
+    width: 100%; /* Full width */
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-links li {
+    margin: 0;
+}
+
+.navbar-links li a {
+    color: #0277bd; /* Strong light blue for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.navbar-links li a:hover {
+    color: #01579b; /* Darker blue on hover */
+}
+
+/* Input and Button styles */
+input[type="text"], input[type="number"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: border 0.3s; /* Transition for border */
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #0277bd; /* Change border color on focus */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0277bd; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+    font-weight: bold; /* Bold text */
+}
+
+button:hover {
+    background-color: #01579b; /* Darker on hover */
 }
